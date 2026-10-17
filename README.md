@@ -19,10 +19,12 @@ It detects and quantifies spiking fluorescence transients for upward-reporting (
 The script returns the spike frequency and mean spike amplitude for each individual neuron trace, as well as for the trace that results from averaging the unnormalized signals across all neurons (synchronous spiking). It also computes the mean Fisher-transformed Pearson correlations between the unnormalized signals across all active neurons, as a measure of synchronicity.
 
 ## Citation
-```Wenninger, A., Knopp, J., McAdams, N., et al. (2026). Human Neuron and Mouse Models Reveal Synaptic Imbalance in Kabuki Syndrome. Submitted for publication.
-```
+Wenninger, A., Knopp, J., McAdams, N., et al. (2026). Human Neuron and Mouse Models Reveal Synaptic Imbalance
+in Kabuki Syndrome. Submitted for publication.
+
 **bibtex**
-```@article{wenninger2026,
+```bibtex
+@article{wenninger2026,
   title		= {Human Neuron and Mouse Models Reveal Synaptic Imbalance in Kabuki Syndrome},
   author	= {Anna Wenninger and James Knopp and Neil McAdams and Toshihiro Nomura and Joaqu{\'i}n Campos and Steven Frye and Alexander Weaver and Sean Miller and Ava Whitlark and Jack Swantkowski and Alexandra Noble and Caroline Lavender and Sandy Nam and Cameron MacKenzie and Isabella Wiebelt-Smith and Charles Sander and {\'A}ine Fitzpatrick and Jessica Stewart and Katharyn Hutson and Jenny Bergqvist-Patzke and Sheri Sanders and Kasturi Haldar and Claudio Acuna and Anis Contractor and Christopher Patzke},
   journal	= {Submitted for publication},
