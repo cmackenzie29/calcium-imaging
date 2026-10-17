@@ -9,6 +9,20 @@ It detects and quantifies spiking fluorescence transients for upward-reporting (
 - Extract fluorescence traces per-neuron cell body in MATLAB using the analysis tools of [Sun & Südhof (2020)](https://pmc.ncbi.nlm.nih.gov/articles/PMC7853247/). The output of this analysis is a .xlsx workbook that serves as the input for our scripts.
 - Run the notebook `upward_transients.ipynb` or `downward_transients.ipynb` depending on the reporting direction. The top lines allow the user to specify the name of the .xlsx file to be analyzed, the video duration in sections (120 for our experiments), and whether to generate a plot showing the photobleaching-corrected traces after the analysis.
 
+## System Requirements and Installation
+Python 3 is required. The software has been tested in Python 3.13 with package versions provided in `requirements.txt`.
+
+To use the software (est. 2 minutes):
+- Clone the repository: `git clone https://github.com/cmackenzie29/calcium-imaging.git`
+- Create a new environment with the required packages: `pip install -r requirements.txt`
+- Launch Jupyter: `jupyter lab`
+
+## Demo (est. 1 minute)
+- Copy .xlsx files into `data` folder. A `sample.xlsx` file is provided.
+- Open `upward_transients.ipynb` in Jupyter.
+- Change the three user-defined parameters if necessary. Run the cell.
+- Expected output: below the cell, output values are printed to the console and a plot displays the normalized traces
+
 ## Methodology
 *(For upward-reporting traces)*
 - The baseline trace intensity is corrected for photobleaching by subtracting the 3 second rolling minimum, keeping the absolute minimum of the corrected trace the same as that of the original trace.
