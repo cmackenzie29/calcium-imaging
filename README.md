@@ -21,7 +21,7 @@ To use the software (est. 2 minutes):
 - Copy .xlsx files into `data` folder. A `sample.xlsx` file is provided.
 - Open `upward_transients.ipynb` in Jupyter.
 - Change the three user-defined parameters if necessary. Run the cell.
-- Expected output: below the cell, output values are printed to the console and a plot displays the normalized traces
+- Expected output: Below the cell, output values are printed to the console and a plot displays the normalized traces. If `trace_outputs = True`, the normalized trace values are also written to `sample_normalized.xlsx` in the `data` folder.
 
 ## Methodology
 *(For upward-reporting traces)*
